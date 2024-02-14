@@ -10,11 +10,11 @@ public class GetCurrentAuctionUseCase
     {
         var repository = new RocketseatAuctionDbContext();
 
-        var today = DateTime.Now;
+        var today =  DateTime.Now;
 
         return repository
             .Auctions
             .Include(auction => auction.Items)
-            .FirstOrDefault();
+            .FirstOrDefault(auction => today >= auction.Starts && today <= auction.Ends);
     }
 }
