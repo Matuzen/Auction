@@ -23,9 +23,13 @@ Instalação e Execução
 
 Funcionalidades
 Autenticação: os usuários podem se autenticar para acessar o sistema.
+
 Autorização: diferentes níveis de acesso são definidos para os usuários (admin, usuário comum).
+
 Criação de Leilões: os usuários podem criar novos leilões, definindo data de início, data de término e descrição.
+
 Realização de Ofertas: os usuários autenticados podem fazer ofertas nos leilões disponíveis.
+
 Listagem de Leilões: os usuários podem ver os leilões disponíveis, incluindo informações sobre as ofertas feitas e o status do leilão.
 
 
