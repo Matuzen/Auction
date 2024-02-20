@@ -14,7 +14,7 @@ Instalação e Execução
 
 3 - Baixe o sqlitebrowser: https://sqlitebrowser.org/dl/
 
-4 - 4 - Ao fazer o clone do repositório, dentro da pasta raiz você encontrará o banco de dados com o nome: leilaoDbNLW, abra-o com o SQLite Browser
+4 - Ao fazer o clone do repositório, dentro da pasta raiz você encontrará o banco de dados com o nome: leilaoDbNLW, abra-o com o SQLite Browser
 
 5 - No projeto em Program troque o caminho do banco de dados para onde você baixou: options.UseSqlite(@"Data Source=C:\dev\RocketseatAuction\leilaoDbNLW.db");
 
