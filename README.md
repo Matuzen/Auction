@@ -3,9 +3,11 @@ Sistema de Leilões Online
 Este é um sistema de leilões online desenvolvido em C# com .NET 8, integrado com um banco de dados SQLite para armazenar informações sobre os leilões, ofertas e usuários. 
 O sistema permite a criação de leilões com datas de início e término, bem como a realização de ofertas pelos usuários autenticados.
 
+
 Requisitos
 .NET 8 SDK
 Visual Studio, Visual Studio Code ou Rider
+
 
 Instalação e Execução
 1 - Clone o repositório: https://github.com/Matuzen/Auction.git
@@ -31,6 +33,3 @@ Criação de Leilões: os usuários podem criar novos leilões, definindo data d
 Realização de Ofertas: os usuários autenticados podem fazer ofertas nos leilões disponíveis.
 
 Listagem de Leilões: os usuários podem ver os leilões disponíveis, incluindo informações sobre as ofertas feitas e o status do leilão.
-
-
-
